@@ -1,2 +1,68 @@
-<p>
-</P>
+@font-face {
+    font-family: gotu;
+     src: url("Gotu-Regular.ttf");
+     
+   }
+   * {
+    box-sizing: border-box;
+  } 
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-family: gotu;
+     src: url("Gotu-Regular.ttf");
+  }
+  .main {
+     background-color: rgb(158, 201, 164); 
+     min-height: 100%;
+     width: 100sem;
+     align-self: center;
+     vertical-align: baseline;
+    flex-direction: column;}
+
+.nav-item {
+    color: rgb(31, 10, 9);
+    font: size 48px;
+    width: 150px ;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+}
+
+.header1 {  background-color: rgb(171, 199, 167);
+}
+
+
+.footer{background-color: rgb(148, 190, 162);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;}
+    
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #141414;
+   
+  }
+  .colum1{
+    height: 30%;
+    width: 500px;
+  
+  }
+  .colum2{
+      height: 30%;
+    width: 30%;}
+    .p1{width: 30%;}
+    .p2{width: 30%;}
+    .p3{width: 30%;}
